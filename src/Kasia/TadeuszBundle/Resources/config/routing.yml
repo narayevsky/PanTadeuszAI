@@ -1,3 +1,6 @@
 kasia_tadeusz_homepage:
     path:     /
     defaults: { _controller: KasiaTadeuszBundle:Default:index }
+kasia_tadeusz_books:
+    path:     /book/{number}
+    defaults: { _controller: KasiaTadeuszBundle:Default:books }
